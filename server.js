@@ -15,7 +15,7 @@ app.use(express.json());
 // Configure CORS to allow requests from frontend
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:5173"], // Add your frontend URL
+    origin: ["http://localhost:3000", "http://localhost:5173","https://spontaneous-kelpie-84bc47.netlify.app","https://slvnk-frontend.vercel.app/"], // Add your frontend URL
     credentials: true, // Allow cookies to be sent
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization", "X-Admin-Request"],
